@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EB9715A20207D1B000EF1A2 /* waifu2x.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC63BC12018325A001498E0 /* waifu2x.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AA098541F699011000CD809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA098531F699011000CD809 /* AppDelegate.swift */; };
 		8AA098561F699011000CD809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA098551F699011000CD809 /* ViewController.swift */; };
 		8AA098591F699011000CD809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA098571F699011000CD809 /* Main.storyboard */; };
@@ -29,7 +30,6 @@
 		8AC63BCE2018325A001498E0 /* UIImage+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC63BBE20183259001498E0 /* UIImage+Alpha.swift */; };
 		8AC63BCF2018325A001498E0 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC63BBF2018325A001498E0 /* BackgroundTask.swift */; };
 		8AC63BD02018325A001498E0 /* UIImage+Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC63BC02018325A001498E0 /* UIImage+Expand.swift */; };
-		8AC63BD12018325A001498E0 /* waifu2x.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC63BC12018325A001498E0 /* waifu2x.h */; };
 		8AC63BD22018325A001498E0 /* UIImage+Bicubic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC63BC22018325A001498E0 /* UIImage+Bicubic.swift */; };
 		8AC63BE8201832AD001498E0 /* up_anime_scale2x_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8AC63BD5201832A9001498E0 /* up_anime_scale2x_model.mlmodel */; };
 		8AC63BE9201832AD001498E0 /* photo_noise3_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8AC63BD6201832A9001498E0 /* photo_noise3_model.mlmodel */; };
@@ -270,7 +270,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC63BD12018325A001498E0 /* waifu2x.h in Headers */,
+				5EB9715A20207D1B000EF1A2 /* waifu2x.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +628,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 34A2STWT5M;
+				DEVELOPMENT_TEAM = D9UCJ653YY;
 				INFOPLIST_FILE = "waifu2x-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xieyi.waifu2x.test;
@@ -646,7 +646,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 34A2STWT5M;
+				DEVELOPMENT_TEAM = D9UCJ653YY;
 				INFOPLIST_FILE = "waifu2x-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xieyi.waifu2x.test;
